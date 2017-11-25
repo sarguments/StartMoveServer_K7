@@ -3,12 +3,12 @@
 // Å¬¶ó¶û ´Ù¸§
 struct st_StartInfo
 {
-	// INADDR_IN
 	bool _inUse;
 	SOCKET _sock;
 	int _ID;
 	int _X;
 	int _Y;
+	SOCKADDR_IN _addr;
 };
 
 enum e_Type
